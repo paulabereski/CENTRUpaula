@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="540.0" prefWidth="600.0" style="-fx-background-color: #02f7e7;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.BeneficiariController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="190.0" layoutY="14.0" style="-fx-background-color: white; -fx-border-color: #9e0606;" text="Beneficiari" textFill="#9e0606">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <TextField layoutX="190.0" layoutY="100.0" prefHeight="25.0" prefWidth="403.0" />
+      <TextField layoutX="190.0" layoutY="144.0" prefHeight="25.0" prefWidth="403.0" />
+      <TextField layoutX="190.0" layoutY="194.0" prefHeight="25.0" prefWidth="403.0" />
+      <ChoiceBox layoutX="190.0" layoutY="239.0" prefHeight="25.0" prefWidth="403.0" />
+      <Label layoutX="70.0" layoutY="103.0" text="Nume și prenume" textAlignment="CENTER" textFill="#9e0606">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="128.0" layoutY="147.0" text="Adresa" textFill="#9e0606">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="56.0" layoutY="197.0" text="Reprezentant legal" textAlignment="CENTER" textFill="#9e0606">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="145.0" layoutY="243.0" text="Clasa" textFill="#9e0606">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="beneficiariInregistreazaButton" layoutX="59.0" layoutY="375.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="139.0" rotate="-26.6" style="-fx-background-color: white; -fx-border-color: #9e0606;" text="Înregistrează" textAlignment="CENTER" textFill="#9e0606">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="beneficiariVizualizeazaButton" alignment="CENTER" contentDisplay="CENTER" layoutX="431.0" layoutY="381.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="139.0" rotate="26.6" style="-fx-background-color: white; -fx-border-color: #9e0606;" text="Vizualizează" textFill="#9e0606">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="beneficiariIesireButton" layoutX="253.0" layoutY="396.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="139.0" style="-fx-background-color: white; -fx-border-color: #9e0606;" text="Ieșire" textAlignment="CENTER" textFill="#9e0606">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
